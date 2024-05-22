@@ -1,0 +1,32 @@
+.flexbox {
+  .wrapper {
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .box {
+    padding: 20px;
+    background: hsla(207, 90%, 61%, 1);
+    border: 1px solid hsla(216, 85%, 34%, 1);
+  }
+
+  .wrapper-1 {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .wrapper-2 {
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+  }
+
+  .wrapper-3 {
+    flex-wrap: wrap;
+  }
+
+  .wrapper-3 .box {
+    width: 25%;
+  }
+}
