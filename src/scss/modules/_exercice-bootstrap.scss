@@ -1,0 +1,11 @@
+.row + .row {
+  margin-top: 16px;
+}
+
+.row > .col,
+.row > [class^="col-"] {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: hsla(262, 22%, 90%, 1);
+  border: 1px solid hsla(261, 19%, 80%, 1);
+}
